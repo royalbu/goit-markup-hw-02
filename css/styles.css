@@ -1,0 +1,8 @@
+body {
+    background-color: aquamarine;
+}
+
+body {
+    /* Тепер (майже) всі елементи відображаються шрифтом без засічок */
+    font-family: 'Roboto', sans-serif;
+}
