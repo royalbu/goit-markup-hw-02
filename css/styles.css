@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header .nav-logo {
+header .nav-logo a {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
