@@ -13,9 +13,11 @@ header .nav-logo {
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color:#4d5ae5;
+        color:#2e2f42;
+}
 
-
+header .nav-logo a:hover a:active {
+    color:#404bbf;
 }
 
 .nav-span {
@@ -26,5 +28,15 @@ header .nav-logo {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
 }
+
+.nav-address {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+    }
+
+    .nav-address a:hover {
+        color:#404bbf;
+    }
