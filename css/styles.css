@@ -29,11 +29,12 @@ body {
 
 }
 
-.li-link a:hover a:active {
+.li-link:hover,
+.li-link:active {
     color: #404bbf;
 }
 
-address {
+.address {
     font-style: normal;
 }
 
@@ -44,6 +45,37 @@ address {
     color: #434455;
 }
 
-.address-link :hover :focus {
+.address-link a:hover a:focus {
     color: #404bbf;
+}
+
+/*END HEADER*/
+
+/*Begin 1 section*/
+.sect-one {
+    background-color: #2e2f42;
+}
+
+.sect-one-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.sect-one-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.sect-one-button:hover,
+.sect-one-button:focus {
+    background-color: #404BBF;
 }
