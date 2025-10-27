@@ -6,7 +6,7 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
-header .nav-logo a {
+.nav-logo {
         font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
@@ -16,21 +16,30 @@ header .nav-logo a {
         color:#4d5ae5;
 }
 
-
-
-header .nav-logo a:hover a:active {
-    color:#404bbf;
-}
-
 .nav-span {
     color: #2e2f42;
 }
 
-.nav-ul {
+.li-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.li-link a:hover a:active {
+    color:#404bbf;
+}
+
+
+
+/*.nav-ul {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
+}*/
 
 .nav-li-a a {
         font-family: "Raleway", sans-serif;
